@@ -1,0 +1,18 @@
+.expand {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+}
+
+.chartButton.active {
+  background-color: blue;
+  border: black;
+  color: white;
+}
+
+.chartButton:not(.active) {
+  border: black;
+  border-width: 10px;
+
+  color: black;
+}
